@@ -42,7 +42,7 @@ set tabstop=4
 set shiftwidth=4
 
 " Turns on auto-indentation
-set ai
+set autoindent
 
 " does the right thing (mostly) in programs
 set smartindent

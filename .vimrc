@@ -68,3 +68,12 @@ set encoding=utf8
 " Get 256 Colors
 let &t_Co=256
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => PLUGINS
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+    source ~/.vim-plugins
+call vundle#end()
+

@@ -50,3 +50,21 @@ set smartindent
 " highlight on the line your cursor is currently on.
 set cursorline
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => COLORS & FONTS
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Enable syntax highlighting
+syntax on
+
+" Set colorscheme
+set background=dark
+"colorscheme wombat256mod
+
+" Set utf8 as standard encoding
+set encoding=utf8
+"set guifont=Inconsolata\ for\ Powerline\ Nerd\ Font\ Complete\ Mono\ 11
+"set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Nerd\ Font\ Complete\ 12
+
+" Get 256 Colors
+let &t_Co=256
+

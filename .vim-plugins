@@ -1,0 +1,22 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => PLUGINS
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Plug-in manager for Vim
+Plugin 'gmarik/Vundle.vim'
+
+" A light and configurable statusline/tabline
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+
+" airline
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set laststatus=2
+"let g:airline_powerline_fonts=1
+"let g:airline_theme='distinguished'
+let g:airline_theme='ubaryd'
+let g:airline#extensions#whitespace#enabled = 0
+highlight clear SignColumn
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+

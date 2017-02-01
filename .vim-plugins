@@ -8,6 +8,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" A tree explorer plugin for vim.
+Plugin 'scrooloose/nerdtree.git'
+
+" Full path fuzzy file, buffer, tag finder for Vim.
+Plugin 'ctrlpvim/ctrlp.vim'
+
 
 " airline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -19,4 +25,19 @@ let g:airline#extensions#whitespace#enabled = 0
 highlight clear SignColumn
 let g:airline_left_sep=''
 let g:airline_right_sep=''
+
+" NERDTree
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <C-n> :NERDTreeToggle<CR>
+
+
+" CtrlP
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Change the default mapping and the default command to invoke CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+" CtrlP local working directory
+let g:ctrlp_working_path_mode = 'ra'
+" Use a custom file listing command
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 

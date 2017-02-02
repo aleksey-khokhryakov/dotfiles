@@ -8,6 +8,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
+
 " A tree explorer plugin for vim.
 Plugin 'scrooloose/nerdtree.git'
 
@@ -25,6 +28,15 @@ let g:airline#extensions#whitespace#enabled = 0
 highlight clear SignColumn
 let g:airline_left_sep=''
 let g:airline_right_sep=''
+
+" vim-fugitive
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <Leader>gs :Gstatus<CR>
+nmap <Leader>gd :Gdiff<CR>
+nmap <Leader>gc :Gcommit<CR>
+nmap <Leader>gb :Gblame<CR>
+nmap <Leader>gl :Glog<CR>
+nmap <Leader>gp :Git push<CR>
 
 " NERDTree
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

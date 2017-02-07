@@ -1,1 +1,1 @@
-# vimdotfiles
+# My dotfiles

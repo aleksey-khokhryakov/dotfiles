@@ -10,6 +10,9 @@ set nocompatible
 " Show number column
 set number
 
+" Highlight edge code column
+set colorcolumn=80
+
 " Always show current position
 set ruler
 

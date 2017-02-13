@@ -16,6 +16,9 @@ set colorcolumn=80
 " Always show current position
 set ruler
 
+" Set ctags location
+set tags=./tags;/
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SEARCHING - help from http://amix.dk/vim/vimrc.html
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

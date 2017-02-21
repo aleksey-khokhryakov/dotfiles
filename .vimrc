@@ -74,6 +74,17 @@ set encoding=utf8
 " Get 256 Colors
 let &t_Co=256
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => MAPPINGS
+" cmap handles command-line mappings
+" imap handles insert-only mappings
+" map maps keys in normal, visual, and operator-pending mode
+" map! maps keys in Vim's command and insert modes
+" nmap maps keys in normal mode only
+" omap maps keys in operator-pending mode only
+" vmap maps keys in visual mode only
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+
 " <LEADER>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader = ","

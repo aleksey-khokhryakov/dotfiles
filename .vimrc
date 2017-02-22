@@ -94,6 +94,18 @@ let mapleader = ","
 nnoremap j gj
 nnoremap k gk
 
+" Disable Arrow keys in Insert mode
+inoremap  <Up>     <NOP>
+inoremap  <Down>   <NOP>
+inoremap  <Left>   <NOP>
+inoremap  <Right>  <NOP>
+
+" Disable Arrow keys in Escape mode
+noremap   <Up>     <NOP>
+noremap   <Down>   <NOP>
+noremap   <Left>   <NOP>
+noremap   <Right>  <NOP>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => FILES, BACKUPS & UNDO
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

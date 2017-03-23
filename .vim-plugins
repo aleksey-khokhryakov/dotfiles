@@ -17,6 +17,8 @@ Plugin 'scrooloose/nerdtree.git'
 " Full path fuzzy file, buffer, tag finder for Vim.
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" A Vim plugin which shows a git diff in the gutter
+Plugin 'airblade/vim-gitgutter'
 
 " airline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -13,6 +13,7 @@ Plugin 'tpope/vim-fugitive'
 
 " A tree explorer plugin for vim.
 Plugin 'scrooloose/nerdtree.git'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " Full path fuzzy file, buffer, tag finder for Vim.
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -44,6 +45,18 @@ nmap <Leader>gp :Git push<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <C-n> :NERDTreeToggle<CR>
 
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "~",
+    \ "Staged"    : "+",
+    \ "Untracked" : "*",
+    \ "Renamed"   : "»",
+    \ "Unmerged"  : "=",
+    \ "Deleted"   : "-",
+    \ "Dirty"     : "×",
+    \ "Clean"     : "ø",
+    \ 'Ignored'   : '^',
+    \ "Unknown"   : "?"
+    \ }
 
 " CtrlP
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

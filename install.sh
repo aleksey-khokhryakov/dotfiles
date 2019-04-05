@@ -7,6 +7,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
   && . "install/banner.sh" \
   && . "install/symlinks.sh" \
   && . "install/vim.sh" \
+  && . "git/install.sh" \
   && cd $HOME
 
 #Complete

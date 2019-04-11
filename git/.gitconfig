@@ -1,5 +1,5 @@
 [alias]
-    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    hist = log --pretty=format:\"%C(auto)%h %ad | %s%d [%an]\" --graph --date=short
     log1 = log --oneline --decorate --graph --all
 
 #    log1 = !"git log1-specific --all"

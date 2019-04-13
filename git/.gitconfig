@@ -1,3 +1,7 @@
+[core]
+    editor = vim
+[push]
+    default = simple
 [alias]
     hist = log --pretty=format:\"%C(auto)%h %ad | %s%d [%an]\" --graph --date=short
     log1 = log --oneline --decorate --graph --all
